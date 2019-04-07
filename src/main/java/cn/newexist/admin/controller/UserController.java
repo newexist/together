@@ -1,6 +1,5 @@
 package cn.newexist.admin.controller;
 
-import cn.newexist.admin.dto.ResponseCode;
 import cn.newexist.admin.service.UserService;
 import cn.newexist.admin.utils.PasswordHelper;
 import cn.newexist.common.controller.BaseController;
@@ -18,11 +17,6 @@ public class UserController extends BaseController {
 
     @Autowired
     private PasswordHelper passwordHelper;
-
-//    @PostMapping("save")
-//    public ResponseCode save(){
-//
-//    }
 
 
 }

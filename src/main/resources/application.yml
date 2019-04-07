@@ -5,49 +5,39 @@ spring:
   datasource:
     name: springboot
     type: com.alibaba.druid.pool.DruidDataSource
-    #druid相关配置
     druid:
-      #监控统计拦截的filters
       filter: stat
-      #mysql 驱动
       driver-class-name: com.mysql.cj.jdbc.Driver
-      #基本属性
-      url: jdbc:mysql://127.0.0.1:3306/tumo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+      url: jdbc:mysql://127.0.0.1:3306/together?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
       username: root
       password: root
-      #配置初始化大小/最大/最小
       initial-size: 1
       min-idle: 1
       max-active: 20
-      #获取连接等待超时时间
       max-wait: 60000
-      #间隔多久进行一次检测，检测需要关闭的空闲连接
       time-between-eviction-runs-millis: 60000
 
-  #devtools插件
   devtools:
     restart:
-      enabled: true #是否支持热部署
+      enabled: true
 
-   #文件上传相关设置
   servlet:
      multipart:
        max-file-size: 10MB
        max-request-size: 100MB
-#mybatis配置
+
 mybatis:
   mapper-locations: classpath:mapper/**/*.xml
   type-aliases-package: cn.newexist.admin.entity
   configuration:
     map-underscore-to-camel-case: true
 
-#mybatis分页插件pagehelpers设置
 pagehelper:
   pagehelperDialect: mysql
   reasonable: true
   support-methods-arguments: true
 
-#打印Sql
 logging:
   level:
     cn.newexist.admin.mapper: debug
+
