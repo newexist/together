@@ -17,6 +17,7 @@ public final class RedisUtil {
 
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
+
         /**
          * 指定缓存失效时间
          * @param key 键
@@ -303,6 +304,7 @@ public final class RedisUtil {
          * @param values 值 可以是多个
          * @return 成功个数
          */
+
     public long sSet(String key, Object... values) {
         try {
             return redisTemplate.opsForSet().add(key, values);
