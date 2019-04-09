@@ -10,6 +10,12 @@ import org.apache.shiro.util.ByteSource;
 import org.springframework.stereotype.Component;
 
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
+
 @Component
 public class PasswordHelper {
 

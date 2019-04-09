@@ -5,7 +5,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 import java.util.Date;
 
 /**
- * Created by 耿志彬 on 2018/11/8
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
  **/
 public class TimeRangerParam extends PageParam {
 

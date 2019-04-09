@@ -3,6 +3,11 @@ package cn.newexist.admin.enums;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description 返回值枚举
+ **/
 
 public enum StatusEnums {
 

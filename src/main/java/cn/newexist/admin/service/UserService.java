@@ -5,6 +5,11 @@ import cn.newexist.common.service.BaseService;
 
 import java.util.List;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public interface UserService extends BaseService<User> {
 
     /**

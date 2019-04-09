@@ -4,6 +4,11 @@ import cn.newexist.admin.enums.StatusEnums;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description 返回状态码封装
+ **/
 @Data
 @AllArgsConstructor
 public class ResponseCode {

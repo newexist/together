@@ -9,6 +9,11 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 
 public class AuthRealm extends AuthorizingRealm {
 

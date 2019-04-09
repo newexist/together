@@ -4,6 +4,11 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public class PageParam extends BaseParam {
 
     @Max(value = 100, message = "每页组大200项")

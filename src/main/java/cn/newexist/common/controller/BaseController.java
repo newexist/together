@@ -14,7 +14,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Supplier;
 
-
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public class BaseController {
 
     protected static Subject getSubject() {

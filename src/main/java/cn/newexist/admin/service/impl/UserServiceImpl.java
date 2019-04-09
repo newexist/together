@@ -12,6 +12,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 @Service
 @SuppressWarnings("all")
 public class UserServiceImpl extends BaseServiceImpl<User> implements UserService {

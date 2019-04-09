@@ -3,6 +3,11 @@ package cn.newexist.common.service;
 import java.util.List;
 
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public interface BaseService<T> {
 
     List<T> selectAll();

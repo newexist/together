@@ -7,6 +7,11 @@ import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.entity.Example;
 import java.util.List;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public class BaseServiceImpl<T> implements BaseService<T> {
 
     @Autowired

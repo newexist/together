@@ -24,6 +24,11 @@ import org.springframework.context.annotation.Configuration;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description Shiro的配置方法
+ **/
 
 @Configuration
 public class ShiroConfig {

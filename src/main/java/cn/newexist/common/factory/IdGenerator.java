@@ -3,9 +3,9 @@ package cn.newexist.common.factory;
 import java.util.UUID;
 
 /**
- * Created by 耿志彬 on 2018/11/6
- *
- * 生成uuid
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description 生成uuid
  **/
 public class IdGenerator {
     public static String generate(){

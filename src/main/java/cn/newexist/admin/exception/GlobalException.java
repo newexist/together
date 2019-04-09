@@ -4,9 +4,10 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * @author tycoding
- * @date 2019-03-09
- */
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public class GlobalException extends RuntimeException {
 
     @Getter

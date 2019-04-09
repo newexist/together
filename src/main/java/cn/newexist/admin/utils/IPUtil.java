@@ -3,9 +3,10 @@ package cn.newexist.admin.utils;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author tycoding
- * @date 2019-03-26
- */
+ * Created by 耿志彬
+ * Date 2019/4/9 9:30
+ * Description
+ **/
 public class IPUtil {
 
     private static final String UNKNOWN = "unknown";
